@@ -1,0 +1,25 @@
+#nav-bar {
+    overflow: hidden;
+    background-color: rgb(35, 36, 50);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+#navLinks {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.anchor-link {
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}
+
+.anchor-link:hover {
+    background-color: rgb(56, 58, 80);
+    border-radius: 20px;
+}
