@@ -6,7 +6,7 @@ function NavLinks() {
 
     return (
         <div id="nav-bar">
-            <div id="navLinks">
+            <nav id="navLinks">
                 <AnchorLink 
                     href="#about"
                     className="anchor-link"
@@ -22,7 +22,7 @@ function NavLinks() {
                 <AnchorLink href="#contact" className="anchor-link">
                     Contact
                 </AnchorLink>
-            </div>
+            </nav>
         </div>
     )
 }

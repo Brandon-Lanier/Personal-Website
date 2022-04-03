@@ -1,0 +1,10 @@
+footer {
+    position: static;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(35, 36, 50);
+    color: white;
+    padding: 10px;
+}

@@ -16,7 +16,7 @@ function Music() {
                 Quietdrive
             </Typography>
             <Typography variant="h6">
-                
+
             </Typography>
             <a href="https://open.spotify.com/artist/5L1n6wVJMxBw6sZbxD0XAU?si=0fv18ZK4T8OKEFNoSyE7ow">Listen On Spotify</a>
             <img src={Spotify} alt="spotify" id="spotify" />
@@ -24,6 +24,21 @@ function Music() {
                 <li className="qd-social-li">
                     <Link href="https://www.facebook.com/quietdrive" target="_blank">
                         <FacebookIcon />
+                    </Link>
+                </li>
+                <li className="qd-social-li">
+                    <Link href="https://www.instagram.com/quietdrive/" target="_blank">
+                        <InstagramIcon />
+                    </Link>
+                </li>
+                <li className="qd-social-li">
+                    <Link href="https://www.youtube.com/user/Quietdriveofficial" target="_blank">
+                        <YouTubeIcon />
+                    </Link>
+                </li>
+                <li className="qd-social-li">
+                    <Link href="https://twitter.com/quietdrivemusic" target="_blank">
+                        <TwitterIcon />
                     </Link>
                 </li>
             </ul>

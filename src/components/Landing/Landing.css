@@ -15,9 +15,10 @@
 }
 
 #profile-pic {
-    border-radius:40px;
+    border-radius: 50%;
+    margin: 10px;
     opacity: .5;
-    width: 400px;
+    width: 350px;
 }
 
 #landing-content {
@@ -52,7 +53,7 @@
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -60,7 +61,7 @@
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -68,7 +69,7 @@
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -76,3 +77,9 @@
         opacity: 1;
     }
 }
+
+.social-icon {
+    color: black;
+}
+
+

@@ -39,8 +39,8 @@ function Landing() {
                             Software Developer
                         </Typography>
                         <div id="social-links">
-                        <a href="https://www.linkedin.com/in/brandon-lanier/" target="_blank"><LinkedInIcon fontSize="large" sx={{color: 'blue'}} /></a>
-                        <a href="https://github.com/Brandon-Lanier" target="_blank"><GitHubIcon fontSize="large" sx={{color: 'black'}}/></a>
+                        <a href="https://www.linkedin.com/in/brandon-lanier/" target="_blank"><LinkedInIcon fontSize="large" className="social-icon" sx={{color: 'black'}} /></a>
+                        <a href="https://github.com/Brandon-Lanier" target="_blank"><GitHubIcon fontSize="large" className="social-icon" sx={{color: 'black'}}/></a>
                         </div>
                     </div>
                    
