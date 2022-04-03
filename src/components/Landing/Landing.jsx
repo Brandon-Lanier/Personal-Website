@@ -33,7 +33,7 @@ function Landing() {
                             Hello, I am
                         </Typography>
                         <Typography variant="h3">
-                            Brandon Lanier
+                            Brandon Lanier.
                         </Typography>
                         <Typography variant="h4">
                             Software Developer

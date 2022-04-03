@@ -78,8 +78,8 @@
     }
 }
 
-.social-icon {
-    color: black;
+.social-icon:hover {
+    color: rgb(67, 67, 67);
 }
 
 

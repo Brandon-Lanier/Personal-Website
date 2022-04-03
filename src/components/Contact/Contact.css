@@ -9,3 +9,11 @@
     justify-content: center;
     overflow: hidden;
 }
+
+.contact-icon {
+    margin: 10px;
+}
+
+.contact-icon:hover {
+    color: rgb(61, 61, 61);
+}
