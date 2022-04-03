@@ -1,7 +1,8 @@
 #landing-container {
     height: 100vh;
     width: 100vw;
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 #landing-box {
@@ -13,3 +14,65 @@
     justify-content: center;
 }
 
+#profile-pic {
+    border-radius:40px;
+    opacity: .5;
+    width: 400px;
+}
+
+#landing-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+    padding: 0;
+    animation: fadein 3s;
+}
+
+#landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top:100px;
+}
+
+#social-links {
+    margin: 1em;
+    padding: 1em;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

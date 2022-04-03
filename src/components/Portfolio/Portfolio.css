@@ -1,0 +1,21 @@
+#portfolio {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.port-card {
+    margin: 10px;
+}
+

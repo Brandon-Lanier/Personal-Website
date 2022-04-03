@@ -13,25 +13,45 @@ import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
 import { Link } from '@mui/material';
 import NavLinks from '../NavLinks/NavLinks';
-import Randy from '../images/frandy.jpg'
+import Randy from '../images/randyweb2.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Fade from '@mui/material/Fade';
 import './Landing.css'
 
 function Landing() {
 
 
-return (
-    <section id="landing-container">
-        <div id="landing-box">
-        <Typography variant="h3">
-            Hello I am Brandon Lanier
-        </Typography>
-        <Typography variant="h4">
-            Software Developer
-        </Typography>
-        <img src={Randy} alt="brandon" width="200px" />
-        </div>
-    </section>
-)
+    return (
+      
+        <section id="landing-container">
+            <div id="landing-box">
+                <div id="landing-content">
+                   
+                    <div id="landing-text">
+                        <Typography variant="h4">
+                            Hello, I am
+                        </Typography>
+                        <Typography variant="h3">
+                            Brandon Lanier
+                        </Typography>
+                        <Typography variant="h4">
+                            Software Developer
+                        </Typography>
+                        <div id="social-links">
+                        <a href="https://www.linkedin.com/in/brandon-lanier/" target="_blank"><LinkedInIcon fontSize="large" sx={{color: 'blue'}} /></a>
+                        <a href="https://github.com/Brandon-Lanier" target="_blank"><GitHubIcon fontSize="large" sx={{color: 'black'}}/></a>
+                        </div>
+                    </div>
+                   
+                    <div id="landing-image">
+                        <img src={Randy} alt="brandon" id="profile-pic" />
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+    )
 
 }
 

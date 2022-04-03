@@ -1,4 +1,4 @@
-#about {
+#music {
     height: 100vh;
     width: 100vw;
     background-color: rgb(100, 100, 215);
@@ -7,6 +7,9 @@
     align-content: center;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
-
+#spotify {
+    width: 100px;
+}
