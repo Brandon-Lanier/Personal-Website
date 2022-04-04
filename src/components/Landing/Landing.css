@@ -3,6 +3,9 @@
     width: 100vw;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    background-image: url('../images/data.png');
+    background-position: center;
+    background-size: cover;
 }
 
 #landing-box {
@@ -17,7 +20,7 @@
 #profile-pic {
     border-radius: 50%;
     margin: 10px;
-    opacity: .5;
+    opacity: .9;
     width: 350px;
 }
 

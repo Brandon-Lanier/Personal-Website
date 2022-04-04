@@ -3,11 +3,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import styles from "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Paper, Button } from '@mui/material'
 import AverageOut from '../images/averageout.png';
 import Movies from '../images/movies.png'
+import truth from '../images/truthorigins.png';
 import './Portfolio.css';
 import { MovieSharp } from '@mui/icons-material';
 
@@ -15,70 +16,41 @@ import { MovieSharp } from '@mui/icons-material';
 function Portfolio() {
 
 
+    const handleClick = (index) => {
+        console.log(index);
+        if (index === 0) {
+            window.open('https://youtu.be/a-fRA8aNMMo');
+        }
+        if (index === 1) {
+            window.open('https://github.com/Brandon-Lanier/Movie-Sagas');
+        }    
+        if (index === 2) {
+            window.open('https://truthorigins.co.uk/');
+        }
+    }
+
     return (
         <div id="portfolio">
-            <Typography variant="h4" sx={{mt: 10}}>
+            <Typography variant="h4" sx={{mt: 1}}>
                 Portfolio
             </Typography>
             <div id="portfolio-container">
-          
-          
-                <Card sx={{ maxWidth: 250 }} className="port-card" raised="true">
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            height="150"
-                            image={AverageOut}
-                            alt="green iguana"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Average Out
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                A cryptocurrency portfolio tracker and strategic exit application.
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
-            
-                <Card sx={{ maxWidth: 250 }} className="port-card" raised="true">
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            height="150"
-                            image="https://static.wixstatic.com/media/70d6d7_59f532e0ce594a3194f7ed2f310af685~mv2.png/v1/fill/w_165,h_94,al_c,lg_1,enc_auto/GRM%20Logo.png"
-                            alt="green iguana"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Growth Resiliency Measure
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                               Prime Digital Academy group project for Growth Resiliency Measure.
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
+            <Carousel 
            
-                <Card sx={{ maxWidth: 250 }} className="port-card" raised="true">
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            height="150"
-                            image={Movies}
-                            alt="green iguana"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Movies Saga
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                A movie collection app that lets users sort by genre.
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
+            interval="5000"
+            onClickItem={handleClick}
+            >
+                  <div>
+                    <img src={AverageOut} />
+                  </div>
+            
+                    <div>
+                    <img src={Movies} />
+                    </div>
+                    <div>
+                    <img src={truth} />
+                    </div>
+                </Carousel>
             </div>
         </div>
     )

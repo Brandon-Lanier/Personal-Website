@@ -13,9 +13,9 @@
 #portfolio-container {
     display: flex;
     flex-flow: row wrap;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
 }
 
-.port-card {
-    margin: 10px;
-}
 
