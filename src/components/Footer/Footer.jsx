@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer>
             <Typography variant="b2">
-                Copyright 2022 Brandon Lanier
+                Copyright © Brandon Lanier 2022
             </Typography>
         </footer>
     )

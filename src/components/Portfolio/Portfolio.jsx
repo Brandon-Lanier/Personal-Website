@@ -31,12 +31,12 @@ function Portfolio() {
 
     return (
         <div id="portfolio">
-            <Typography variant="h4" sx={{mt: 1}}>
+            <Typography variant="h4" sx={{mb: 2}}>
                 Portfolio
             </Typography>
             <div id="portfolio-container">
             <Carousel 
-           
+            centerMode
             interval="5000"
             onClickItem={handleClick}
             >

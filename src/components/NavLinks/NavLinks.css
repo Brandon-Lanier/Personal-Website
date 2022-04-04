@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     padding: 20px;
+    z-index: 2000;
 }
 
 #navLinks {
