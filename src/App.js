@@ -6,7 +6,7 @@ import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio';
 import Music from './components/Music/Music';
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+
 
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
       <Portfolio />
       <Music />
       <Contact />
-      <Footer />
     </div>
   );
 }

@@ -3,11 +3,13 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from "@mui/material";
+import Footer from '../Footer/Footer';
 import './Contact.css'
 
 function Contact() {
 
     return (
+       
         <div id="contact">
             <Typography variant="h4">
                 Let's get in touch!
@@ -42,7 +44,10 @@ function Contact() {
                 </Link>
 
             </div>
+            <Footer />
         </div>
+        
+     
     )
 }
 
