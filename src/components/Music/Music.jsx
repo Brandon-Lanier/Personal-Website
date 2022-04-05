@@ -42,7 +42,7 @@ function Music() {
           <img
             src={`${qdjapan}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdjapan}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdshow2"
+            alt="qdshow5"
           />
         </ImageListItem>
         <ImageListItem>
@@ -63,7 +63,7 @@ function Music() {
           <img
             src={`${qdshow2}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdshow2}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdshow2"
+            alt="qdshow10"
           />
         </ImageListItem>
         <ImageListItem>
@@ -77,7 +77,7 @@ function Music() {
           <img
             src={`${qdvarsity}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdvarsity}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity7"
           />
         </ImageListItem>
       
@@ -85,42 +85,42 @@ function Music() {
           <img
             src={`${drums3}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${drums3}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity6"
           />
         </ImageListItem>
         <ImageListItem>
           <img
             src={`${qdiraq}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdiraq}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity5"
           />
         </ImageListItem>
         <ImageListItem>
           <img
             src={`${drum2}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${drum2}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity4"
           />
         </ImageListItem>
         <ImageListItem>
           <img
             src={`${qdsummer}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdsummer}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity3"
           />
         </ImageListItem>
         <ImageListItem>
           <img
             src={`${qdpromo2}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdpromo2}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity2"
           />
         </ImageListItem>
         <ImageListItem>
           <img
             src={`${qdpromo}?w=164&h=250&fit=crop&auto=format`}
             srcSet={`${qdpromo}?w=164&h=250&fit=crop&auto=format&dpr=2 2x`}
-            alt="qdvarsity"
+            alt="qdvarsity1"
           />
         </ImageListItem>
       </ImageList>
